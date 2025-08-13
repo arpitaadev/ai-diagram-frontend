@@ -1,0 +1,7 @@
+html,body,#root { height:100%; margin:0; font-family: Inter, Arial, sans-serif; }
+.app { display:flex; height:100vh; }
+.sidebar { width:72px; border-right:1px solid #eee; }
+.canvas-area { flex:1; display:flex; flex-direction:column; }
+.toolbar { height:64px; display:flex; align-items:center; padding:0 12px; gap:8px; border-bottom:1px solid #eee; }
+.canvas-container { flex:1; position:relative; }
+.selection-rect { position:absolute; border:2px dashed #1976d2; pointer-events:none; }
